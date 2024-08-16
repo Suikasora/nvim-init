@@ -277,6 +277,19 @@ noremap tmi :+tabmove<CR>
 noremap t- :bprev<CR>
 noremap t= :bnext<CR>
 
+"aihui
+"
+" 开启 语法高亮
+syntax on
+" 查找结果 高亮显示
+set hlsearch
+" 配色方案
+colorscheme desert
+" 关闭兼容模式
+set nocompatible
+" 解决vim 退格键（backspace）不能用
+set backspace=indent,eol,start
+
 
 " =================================================================================================
 
